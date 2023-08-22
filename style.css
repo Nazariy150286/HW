@@ -1,0 +1,71 @@
+html {
+  position: relative;
+}
+.menu {
+  width: 50px;
+  height: 739px;
+  background: gray;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.menu:hover .submenu {
+  opacity: 1;
+  width: 370px;
+  font-size: 25px;
+}
+.menu {
+  transition: 0.5s ease-in-out;
+}
+.menu:hover {
+  width: 370px;
+  transition: 0.5s ease-in-out;
+  padding: 20px;
+}
+.menu:hover p {
+  opacity: 0;
+}
+.menu-text {
+  width: 100%;
+  font-size: 30px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 45%;
+  color: #fff;
+  margin: 0;
+  transition: 0.5s;
+}
+.menu-text2 {
+  width: 100%;
+  font-size: 30px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 60%;
+  color: #fff;
+  margin: 0;
+  transition: 0.5s;
+}
+
+.submenu a {
+  text-decoration: none;
+  color: white;
+}
+.submenu a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+.submenu {
+  opacity: 0;
+  list-style: none;
+}
+.box {
+  width: 10px;
+  height: 10px;
+  background: orange;
+  border: 2px solid black;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 2px;
+  margin-top: 7px;
+  margin-left: 36px;
+}
